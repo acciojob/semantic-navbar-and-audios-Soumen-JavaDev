@@ -8,32 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <header>
-		Semantic Navbar & Audios
-	</header>
-	<nav>
-		<ol>
-		<li><a href ="#Hindi">Hindi Song</a></li>
-		<li><a href="#Bangali">Bangali Song</a></li>
-		<li><a href="#English">English Song</a></li>
-		</ol>
-	</nav>
-	<h1>random audios</h1>
-	<section>
-		<audio>
-			<source src= "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="mp3">
-			 dont support
-		</audio>
-		<audio>
-			<source src= "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="ogg">
-			 dont support
-		</audio>
-		<audio>
-			<source src= " http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="mp3">
-			 dont support
-		</audio>
-	</section>
+    <!-- Part 1: Semantic Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="https://example.com/link1">Home</a></li>
+            <li><a href="https://example.com/link2">About</a></li>
+            <li><a href="https://example.com/link3">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Part 2: Audio Section -->
+    <section>
+        <h2>3 Random Audios</h2>
+
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio controls>
+            <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
 	
     <script type="text/javascript" src="./script.js">
 </script>
